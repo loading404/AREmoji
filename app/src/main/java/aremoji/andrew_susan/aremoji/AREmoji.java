@@ -134,7 +134,7 @@ public class AREmoji extends AppCompatActivity {
                     HttpTransport httpTransport = AndroidHttp.newCompatibleTransport();
                     JsonFactory jsonFactory = GsonFactory.getDefaultInstance();
 
-                    VisionRequestInitializer requestInitializer = new VisionRequestInitializer("AIzaSyByshzyhn7yGOfJ-lZlv66qTHWMKhJ6K70");
+                    VisionRequestInitializer requestInitializer = new VisionRequestInitializer("INSERT_GOOGLE_API_KEY_HERE");
 
                     Vision.Builder builder = new Vision.Builder(httpTransport, jsonFactory,null);
                     builder.setVisionRequestInitializer(requestInitializer);
